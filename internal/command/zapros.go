@@ -13,7 +13,7 @@ func Zapros(url string) []byte {
 	}
 
 	// add authorization header to the req
-	req.Header.Add("X-Yandex-API-Key", "c25d9fc8-5a4a-4784-a51d-19332c8e33c9")
+	req.Header.Add("X-Yandex-API-Key", "---")
 
 	// Send req using http Client
 	client := &http.Client{}
